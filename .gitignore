@@ -1,7 +1,9 @@
 Library
 obj
 Temp
+*.app
 *.csproj
 *.sln
 *.userprefs
 *.keystore
+*.DS_Store
