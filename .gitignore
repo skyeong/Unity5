@@ -6,4 +6,4 @@ Temp
 *.sln
 *.userprefs
 *.keystore
-*.DS_Store
+.DS_Store
