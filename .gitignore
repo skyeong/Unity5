@@ -6,5 +6,6 @@ Temp
 *.sln
 *.userprefs
 *.keystore
+*.meta
 .DS_Store
 _Complete*
