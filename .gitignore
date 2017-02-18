@@ -1,6 +1,7 @@
 Library
 obj
 Temp
+ProjectSettings
 *.app
 *.csproj
 *.sln
