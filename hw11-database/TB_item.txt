@@ -1,0 +1,7 @@
+CREATE TABLE `webapi_item` (
+  `itemid` int(11) NOT NULL AUTO_INCREMENT,
+  `itemname` varchar(200) DEFAULT NULL,
+  `attackpower` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`itemid`),
+  UNIQUE KEY `ItemID_UNIQUE` (`itemid`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;

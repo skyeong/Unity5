@@ -1,0 +1,9 @@
+CREATE TABLE `webapi_stagerecord` (
+  `StageRecordID` int(11) NOT NULL AUTO_INCREMENT,
+  `UserID` int(11) NOT NULL,
+  `Recorded_at` datetime(6) NOT NULL,
+  `TotalMovement` int(11) DEFAULT NULL,
+  `TotalAttack` int(11) DEFAULT NULL,
+  PRIMARY KEY (`StageRecordID`),
+  UNIQUE KEY `StageRecordID_UNIQUE` (`StageRecordID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

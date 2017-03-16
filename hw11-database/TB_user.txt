@@ -1,0 +1,10 @@
+ㅇCREATE TABLE `webapi_user` (
+  `UserID` int(11) NOT NULL AUTO_INCREMENT,
+  `FacebookID` varchar(45) DEFAULT NULL,
+  `FacebookName` varchar(45) DEFAULT NULL,
+  `FacebookPhotoURL` varchar(200) DEFAULT NULL,
+  `Created_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`UserID`),
+  UNIQUE KEY `UserID_UNIQUE` (`UserID`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+SELECT * FROM chenobadb.TB_User;
